@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Register</title>
+   <link rel="icon" href="./login (2).webp"></link>
+  <style>
+	body{
+		font-size:25px;
+		background-image:url("./back2.jpg");
+		background-repeat:no-repeat;
+		background-size:100vw 100vh;
+	}
+	form{
+		width:40vw;
+		height:90vh;
+		border:1px outset white;
+		background-color:black;
+		border-radius:20px;
+		opacity:0.8;
+		
+	}
+	input{
+		font-size:24px;
+	}
+	span{
+		text-align:justify;
+		font-size:20px;
+	}
+	#bu{
+		width:20vw;
+		border-radius:20px;
+
+	}
+	#sub{
+		font-size:25px;
+		border-radius:20px;
+	}
+	#bu:hover{
+		color:white;
+		background-color:blue;
+		border-color:white;
+	}
+	a{
+		color:white;
+	}
+  </style>
+ </head>
+ <body>
+  <center style="color:white"><form>
+	<h1>Register</h1>
+		<label>First name:</label>
+		<input required placeholder="First name">
+		<br><br>
+		<label>Last name:</label>
+		<input required placeholder="Last name">
+		<br><br>
+		<label>Mobile number:</label>
+		<input type="number" placeholder="Phone number">
+		<br> <br>
+		<input type="submit" id="sub" value="Send OTP"><br><br>
+		<input type="checkbox"><span>I agree to be contacted by 99acres and others for similar properties or related services via  WhatsApp, phone, sms, e-mail etc.</span><br><br>
+		<input type="button" id="bu" value="Register"><br><br>
+		<span>Already have an account?<a href="./sign.html">Login</a></span>
+	</form>
+	</center>
+ </body>
+</html>
